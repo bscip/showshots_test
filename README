@@ -1,1 +1,3 @@
-placeholder
+Intended to pull up concert photos, per band->show.
+
+Using Echo Nest, SongKick, Flickr apis.  You need to fill in api keys before running.
