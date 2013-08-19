@@ -1,0 +1,52 @@
+#header {
+    width:  200px;
+    margin-left:  auto;
+    margin-right:  auto;
+    font-family:Courier,monospace;
+    font-size:28px;
+    padding:20px;
+}
+
+#container {
+    /*border: solid 1px black;*/
+    width:  800px;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+#artists {
+}
+
+#artist_search {
+    width:  200px;
+}
+
+#artist_search_submit {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding 5px;
+}
+
+#artist_selected {
+    margin-left: 10px;
+    font-size:  14px;
+}
+
+.artist_list {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:  12px;
+}
+.artist_list:hover {
+    background-color:  black;
+    color:  white;
+    cursor: pointer;
+}
+
+#artists {
+}
+
+#images {
+    height:  800px;
+}

@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div#header Show Shots
+  div#container
+    h3 Search For Artists
+    div#artists
+      input(type='text', name='artist_search')#artist_search
+      input(type='submit', value='search')#artist_search_submit
+      span#artist_selected
+      div#artist_search_results
+    h3 Select Shows
+    div#shows
+    h3 Show Shots!
+    div#images
+
+  
