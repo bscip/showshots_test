@@ -7,6 +7,10 @@
     padding:20px;
 }
 
+h3 {
+    font-size: 14px;
+}
+
 #container {
     /*border: solid 1px black;*/
     width:  800px;
@@ -33,13 +37,13 @@
     font-size:  14px;
 }
 
-.artist_list {
+.artist_list, .show_listing {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size:  12px;
 }
-.artist_list:hover {
-    background-color:  black;
+.artist_list:hover, .show_listing:hover {
+    background: #F39814;
     color:  white;
     cursor: pointer;
 }
@@ -47,6 +51,15 @@
 #artists {
 }
 
+.show_date {
+    font-size: 14px;
+}
+
+.show_details {
+    margin-left:  20px;
+    font-size: 14px;
+}
+
 #images {
-    height:  800px;
+    height:  400px;
 }
